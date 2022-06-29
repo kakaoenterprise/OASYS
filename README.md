@@ -55,18 +55,20 @@ data
     },
     triple : {
         src : {
-            url : "http://ko.dbpedia.org/resource/링컨_(네브래스카_주)" (str) -> "dbpedia id of each entities",
-            type : "http://dbpedia.org/ontology/Agent" (str) -> "dbpedia type id of each entities",
+            url : "http://ko.dbpedia.org/resource/링컨_(네브래스카_주)" (str) -> "dbpedia id of each entity",
+            type : "http://dbpedia.org/ontology/Agent" (str) -> "dbpedia type id of each entity",
             str : "링컨" (str) -> "original entity name",
             tokenIndex : 0 (integer) -> "entity token start index in the words list"
         },
-        relation : "<cruise:http://dbpedia.org/ontology/region>" (str) -> "relation between src and dst entities",
+        relation : "<cruise:http://dbpedia.org/ontology/region>" (str) -> "relation between src and dst entity",
         dst : {
-            url : "http://ko.dbpedia.org/resource/네브래스카_주" (str) -> "dbpedia id of each entities",
-            type : "http://dbpedia.org/ontology/Place" (str) -> "dbpedia type id of each entities",
+            url : "http://ko.dbpedia.org/resource/네브래스카_주" (str) -> "dbpedia id of each entity",
+            type : "http://dbpedia.org/ontology/Place" (str) -> "dbpedia type id of each entity",
             str : "네브래스카주" (str) -> "original entity name",
             tokenIndex : 1 (integer) -> "entity token start index in the words list"
         }
     }
 }
 ```
+
+Contact: {lucas.ai, dan.j}@kakaoenterprise.com
