@@ -71,4 +71,4 @@ data
 }
 ```
 
-Contact: {lucas.ai, dan.j}@kakaoenterprise.com
+Contact: kgai@kakaoenterprise.com
