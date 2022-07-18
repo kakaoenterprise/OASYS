@@ -10,7 +10,7 @@
   series = 	 {Proceedings of Machine Learning Research},
   month = 	 {15 August},
   publisher =    {ACM SIGKDD workshop on Mining and Learning with Graphs (SIGKDD-MLG)},
-  pdf = 	 {},
+  pdf = 	 {https://arxiv.org/pdf/2207.07597.pdf},
   abstract = 	 {In recent years, creating and managing knowledge bases have become crucial to the retail product and enterprise domains. We present an automatic knowledge base construction system that mines data from documents. This system can generate training data during the training process without human intervention. Therefore, it is domain-agnostic trainable using only the target domain text corpus and a pre-defined knowledge base. This system is called OASYS and is the first system built with the Korean language in mind. In addition, we also have constructed a new human-annotated benchmark dataset of the Korean Wikipedia corpus paired with a Korean DBpedia to aid system evaluation. The system performance results on human-annotated benchmark test dataset are meaningful and show that the generated knowledge base from OASYS trained on only auto-generated data is useful. We provide both a human-annotated test dataset and an auto-generated dataset.}
   }
 ```
